@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  border: solid rgb(243, 169, 10) 8px;
+}
+
+header {
+  background-color: dodgerblue;
+}
+
+nav {
+  background-color: darkcyan;
+}
+
+main {
+  background-color: aliceblue;
+}
+
+aside {
+  background-color: lightgreen;
+}
+
+footer {
+  background-color: blueviolet;
+}
+
+/* box-sizing */
+
+/* ----------------------------------------- */
+/*  flexbox solution */
+/* ----------------------------------------- */
+
+/* ----------------------------------------- */
+/*  grid solution - with section */
+/* ----------------------------------------- */
+
+/* ----------------------------------------- */
+/*  grid solution - without section */
+/* ----------------------------------------- */
