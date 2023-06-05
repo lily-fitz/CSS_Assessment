@@ -27,14 +27,80 @@ footer {
 
 /* box-sizing */
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* section {
+  display: flex;
+}
+
+p {
+  background-color: red;
+  flex: 0 1 650px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 650px;
+} */
+
 /* ----------------------------------------- */
 /*  flexbox solution */
 /* ----------------------------------------- */
+
+/* body {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  flex-grow: 1;
+  display: flex;
+}
+
+header,
+footer {
+  flex-basis: 100px;
+}
+
+nav,
+aside {
+  flex-basis: 150px;
+}
+
+main {
+  flex-grow: 1;
+} */
 
 /* ----------------------------------------- */
 /*  grid solution - with section */
 /* ----------------------------------------- */
 
+/* body {
+  display: grid;
+  grid-template-rows: 100px auto 100px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 150px auto 150px;
+} */
+
 /* ----------------------------------------- */
 /*  grid solution - without section */
 /* ----------------------------------------- */
+
+/* body {
+  display: grid;
+  grid-template-rows: 100px auto 100px;
+  grid-template-columns: 150px auto 150px;
+}
+
+header {
+  grid-column: 1 / 4;
+}
+
+footer {
+  grid-column: 1 / span 3;
+} */
